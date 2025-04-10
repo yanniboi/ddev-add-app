@@ -1,0 +1,6 @@
+#ddev-generated
+additional_hostnames:
+  - app.project_name
+hooks:
+  post-start:
+    - exec: "pm2 start .ddev/apps.config.js"
